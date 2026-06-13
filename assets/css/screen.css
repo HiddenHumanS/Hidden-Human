@@ -95,10 +95,27 @@ a:hover {
 }
 
 .hero-logo {
-  max-width: 620px;
+  display: block;
   width: 100%;
+  max-width: 1000px;
   height: auto;
-  margin-bottom: 34px;
+  margin: 0 auto 54px;
+  border-radius: 24px;
+  border: 1px solid var(--border);
+  box-shadow: 0 24px 80px var(--shadow);
+}
+
+.hero-copy {
+  max-width: 720px;
+}
+
+.hero-copy h1 {
+  margin-bottom: 24px;
+}
+
+.hero-copy p {
+  font-size: 20px;
+  line-height: 1.8;
 }
 
 .eyebrow {
