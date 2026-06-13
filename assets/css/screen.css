@@ -73,7 +73,8 @@ a:hover {
 .nav {
   display: flex;
   flex-wrap: wrap;
-  gap: 18px;
+  justify-content: center;
+  gap: 26px;
   margin-top: 18px;
 }
 
@@ -89,9 +90,17 @@ a:hover {
   padding: 54px 0;
 }
 
+.header-banner {
+  display: block;
+  width: 100%;
+  max-width: 720px;
+  margin: 0 auto 18px;
+}
+
+
 .hero {
   max-width: 860px;
-  padding: 28px 0 64px;
+  padding: 8px 0 48px;
 }
 
 .hero-logo {
@@ -107,6 +116,8 @@ a:hover {
 
 .hero-copy {
   max-width: 720px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .hero-copy h1 {
