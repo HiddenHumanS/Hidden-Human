@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-0DPW488FB6"></script>
@@ -14,78 +13,83 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>Hidden Human | {{TITLE}}</title>
-
   <meta name="description" content="{{DESCRIPTION}}">
 
   <link rel="stylesheet" href="../assets/css/screen.css">
 </head>
 
 <body>
+  <header class="site-header">
+    <div class="site-shell">
+      <a href="../index.html">
+        <img
+          class="header-banner"
+          src="../Main_Banner.png"
+          alt="Hidden Human"
+        />
+      </a>
 
-<header class="site-header">
-  <div class="site-shell">
-    <a class="site-title" href="../index.html">Hidden Human</a>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="../index.html">Home</a>
+        <a href="index.html">Articles</a>
+        <a href="../about.html">About</a>
+      </nav>
+    </div>
+  </header>
 
-<nav class="nav">
-  <a href="../index.html">Home</a>
-  <a href="index.html">Articles</a>
-  <a href="../about.html">About</a>
-  <a href="https://www.youtube.com/@HiddenHuman-s">YouTube</a>
-  <a href="https://instagram.com/hidden_human_s">Instagram</a>
-</nav>
+  <main class="site-main">
+    <div class="site-shell">
+      <article class="article">
+        <div class="article-hero-image">
+          <img src="{{IMAGE_PATH}}" alt="{{TITLE}}">
+        </div>
 
-  </div>
-</header>
+        <header class="article-header">
+          <h1>{{TITLE}}</h1>
 
-<main class="site-main">
+          <div class="article-meta">
+            Hidden Human • {{DATE}} • {{READ_TIME}}
+          </div>
+        </header>
 
-  <article class="article">
+        <div class="article-content">
+          {{CONTENT}}
+        </div>
+      </article>
 
-<div class="article-hero-image">
-  <img src="{{IMAGE_PATH}}" alt="{{TITLE}}">
-</div>
+      <section class="related-section">
+        <p class="section-title">Related Articles</p>
 
-<header class="article-header">
-  <h1>{{TITLE}}</h1>
+        <div class="post-grid">
+          {{RELATED_ARTICLES}}
+        </div>
+      </section>
+    </div>
 
-  <div class="article-meta">
-    Hidden Human • {{DATE}} • {{READ_TIME}}
-  </div>
-</header>
+    <section class="follow-section">
+      <div class="site-shell">
+        <p class="section-title">Follow</p>
 
-<div class="article-content">
+        <div class="follow-links">
+          <a href="https://www.youtube.com/@HiddenHuman-s">YouTube</a>
+          <a href="https://www.tiktok.com/@hidden_human_s">TikTok</a>
+          <a href="https://www.facebook.com/profile.php?id=61589740527574">Facebook</a>
+          <a href="https://instagram.com/hidden_human_s">Instagram</a>
+          <a href="https://www.threads.com/@hidden_human_s">Threads</a>
+        </div>
+      </div>
+    </section>
+  </main>
 
-  {{CONTENT}}
+  <footer class="site-footer">
+    <div class="site-shell">
+      <div>© Hidden Human</div>
 
-</div>
-
-  </article>
-
-  <section class="related-section">
-    <p class="section-title">Related Articles</p>
-
-<div class="post-grid">
-
-  {{RELATED_ARTICLES}}
-
-</div>
-
-  </section>
-
-</main>
-
-<footer class="site-footer">
-  <div class="site-shell">
-    <div>© Hidden Human</div>
-
-<div class="footer-links">
-  <a href="../Privacy%20Policy.html">Privacy Policy</a>
-  <a href="../Terms%20of%20Service.html">Terms of Service</a>
-</div>
-
-  </div>
-</footer>
-
+      <div class="footer-links">
+        <a href="../Privacy%20Policy.html">Privacy Policy</a>
+        <a href="../Terms%20of%20Service.html">Terms of Service</a>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
-
