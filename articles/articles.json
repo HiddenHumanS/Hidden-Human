@@ -1,5 +1,15 @@
 [
     {
+        "id": "00111",
+        "title": "Why Silence Amplifies Every Gesture You Make",
+        "category": "Body Language",
+        "date": "2026-09-03",
+        "read_time": "4 min read",
+        "excerpt": "Sometimes the quiet moments between words speak louder than the words themselves. A single pause can stretch time in a conversation and cast a spotlight.",
+        "image": "../assets/images/articles/00111.png",
+        "url": "00111.html"
+    },
+    {
         "id": "00110",
         "title": "When Correction Hides a Quiet Envy",
         "category": "Social Dynamics",
