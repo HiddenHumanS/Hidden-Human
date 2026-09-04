@@ -1,5 +1,15 @@
 [
     {
+        "id": "00112",
+        "title": "How Your Room Quietly Changes Who You Are",
+        "category": "Hidden Human",
+        "date": "2026-09-04",
+        "read_time": "3 min read",
+        "excerpt": "Step into a room and you might think you’re stepping into just a physical space. But really, you’re entering an unspoken dialogue where walls, light.",
+        "image": "../assets/images/articles/00112.png",
+        "url": "00112.html"
+    },
+    {
         "id": "00111",
         "title": "Why Silence Amplifies Every Gesture You Make",
         "category": "Body Language",
