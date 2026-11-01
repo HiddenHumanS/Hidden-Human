@@ -1,5 +1,16 @@
 [
     {
+        "id": "00173",
+        "title": "Why Sunlight After Lunch Boosts Your Afternoon Energy",
+        "category": "Human Experience",
+        "date": "2026-11-01",
+        "read_time": "4 min read",
+        "excerpt": "There it is again—the mid-afternoon slump. You’ve eaten, maybe even digested well, but your mind feels foggy and your social energy flatlines. That.",
+        "image": "../assets/images/articles/00173.png",
+        "url": "00173.html",
+        "site_category": "behavior"
+    },
+    {
         "id": "00172",
         "title": "Why Open Offices Quietly Drag Down Productivity",
         "category": "Human Experience",
